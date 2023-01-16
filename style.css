@@ -1,0 +1,603 @@
+/* section: illustration */
+.pop-illustration {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 4;
+}
+
+.ovl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+}
+
+.image {
+    position: absolute;
+    width: 1086px;
+    height: 611px;
+    left: calc(50% - 543px);
+    top: calc(50% - 305.5px);
+
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.close-btn {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 24px;
+    top: 24px;
+    z-index: 2;
+
+    background-image: url('assets/close.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 24px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.close-btn:hover {
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    right: 21px;
+    top: 21px;
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    height: 236px;
+    left: calc(50% - 200px);
+    top: calc(50% - 118px);
+
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.img {
+    position: absolute;
+    width: 345px;
+    height: 181px;
+    left: calc(50% - 172.5px);
+    bottom: 146px;
+    border-radius: 0px 0px 21px 21px;
+}
+
+.txt {
+    position: absolute;
+    width: calc(100% - 96px);
+    height: 48px;
+    left: 48px;
+    top: 98px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.no-btn {
+    position: absolute;
+    width: 170px;
+    height: 58px;
+    left: 16px;
+    bottom: 16px;
+
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    text-align: center;
+    color: #000000;
+}
+
+.no-btn:hover {
+    cursor: pointer;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.yes-btn {
+    position: absolute;
+    width: 170px;
+    height: 58px;
+    right: 16px;
+    bottom: 16px;
+
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.yes-btn:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.no-btn p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yes-btn p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.frame-top-left {
+    position: fixed;
+    width: 332px;
+    height: 334px;
+    left: 0px;
+    top: 0px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.frame-btm-left {
+    position: fixed;
+    width: 311px;
+    height: 359px;
+    left: 0px;
+    bottom: 0px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.frame-top-right {
+    position: fixed;
+    width: 354px;
+    height: 727px;
+    right: 0px;
+    top: 0px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.ctrl-mouse {
+    position: fixed;
+    width: 122px;
+    height: 198px;
+    left: 166px;
+    bottom: 103px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.ctrl-key {
+    position: fixed;
+    width: 251px;
+    height: 198px;
+    left: 311px;
+    bottom: 25px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.map-illustration {
+    position: fixed;
+    width: 314px;
+    height: 198px;
+    left: 578px;
+    bottom: 25px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.map-imagecomp {
+    position: fixed;
+    width: 586px;
+    height: 198px;
+    left: 578px;
+    bottom: 25px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.map-branding {
+    position: fixed;
+    width: 336px;
+    height: 198px;
+    left: 578px;
+    bottom: 25px;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.loading-ovl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loading-main-cont {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.loading-cont {
+    position: absolute;
+    width: 209px;
+    height: 142px;
+    left: calc(50% - 104.5px);
+    top: calc(50% - 71px);
+    z-index: 2;
+}
+
+.loading-animation {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 40px);
+    top: 0px;
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-txt {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    bottom: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.back-cont {
+    position: fixed;
+    width: 68px;
+    height: 92px;
+    left: 74px;
+    top: calc(50% - 46px);
+    z-index: 6;
+}
+
+.back-btn {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: calc(50% - 34px);
+    top: 0px;
+    border-radius: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.back-btn:hover {
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    left: calc(50% - 36px);
+    top: -2px;
+}
+
+.back-txt {
+    position: absolute;
+    width: 38px;
+    height: 19px;
+    left: calc(50% - 19px);
+    bottom: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+.kuli {
+    position: fixed;
+    width: 300px;
+    height: 80px;
+    left: 924px;
+    bottom: 25px;
+    pointer-events: none;
+
+    z-index: 3;  
+}
+
+.kuli-img {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    left: 0px;
+}
+
+.kuli-txt {
+    position: absolute;
+    width: calc(100% - 150px);
+    height: 40px;
+    left: 100px;
+    top: calc(50% - 20px);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+@media (max-width: 670px) {
+    .frame-top-left {
+        width: 156px;
+        height: 157px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .frame-btm-left {
+        width: 169px;
+        height: 195px;
+    }
+
+    .frame-top-right {
+        width: 167px;
+        height: 342px;
+    }
+
+    .ctrl-mouse {
+        display: none;
+    }
+
+    .ctrl-key {
+        display: none;
+    }
+
+    .map-illustration {
+        display: none;
+    }
+
+    .back-cont-mobile {
+        position: fixed;
+        width: 52px;
+        height: 76px;
+        right: calc(50% - 26px);
+        bottom: 24px;
+        z-index: 6;
+    }
+
+    .back-cont {
+        display: none;
+    }
+
+    .back-btn {
+        width: 52px;
+        height: 52px;
+        left: calc(50% - 26px);
+    }
+
+    .back-txt {
+        height: 16px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image-mobile {
+        position: absolute;
+        width: 332px;
+        height: 480px;
+        left: calc(50% - 166px);
+        top: 40px;
+        
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        z-index: 4;
+    }
+
+    .box {
+        width: 324px;
+        height: 192px;
+        left: calc(50% - 162px);
+        top: calc(50% - 96px);
+    }
+
+    .img {
+        width: 278px;
+        height: 146px;
+        left: calc(50% - 139px);
+        bottom: 118px;
+    }
+
+    .txt {
+        width: calc(100% - 68px);
+        height: 34px;
+        left: 36px;
+        top: 78px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .no-btn {
+        width: 138px;
+        height: 47px;
+        left: 16px;
+        bottom: 16px;
+    }
+
+    .yes-btn {
+        width: 138px;
+        height: 47px;
+        right: 16px;
+        bottom: 16px;
+    }
+
+    .yes-btn-mobile {
+        position: absolute;
+        width: 138px;
+        height: 47px;
+        right: 16px;
+        bottom: 16px;
+
+        background-color: #000000;
+        border: 2px solid #000000;
+        border-radius: 9px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .no-btn p {
+        line-height: 19px;
+    }
+
+    .yes-btn p {
+        line-height: 19px;
+    }
+
+    .yes-btn-mobile p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .mobile-restrict {
+        position: absolute;
+        width: 324px;
+        height: 192px;
+        left: calc(50% - 162px);
+        top: calc(50% - 96px);
+
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        display: none;
+    }
+
+    .mobile-restrict-txt {
+        position: absolute;
+        width: calc(100% - 72px);
+        height: 56px;
+        left: 36px;
+        top: 20px;
+        font-size: 16px;
+        line-height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #000000;
+    }
+
+    .mobile-restrict-btn {
+        position: absolute;
+        width: 138px;
+        height: 47px;
+        right: calc(50% - 69px);
+        bottom: 16px;
+
+        background-color: #000000;
+        border: 2px solid #000000;
+        border-radius: 9px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .mobile-restrict-btn p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .kuli {
+        position: fixed;
+        width: 120px;
+        height: 150px;
+        left: calc(100% - 145px);
+        bottom: 25px;
+        pointer-events: none;
+    
+        z-index: 3;  
+    }
+    
+    .kuli-img {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: calc(50% - 40px);
+    }
+    
+    .kuli-txt {
+        width: 100%;
+        height: calc(100% - 90px);
+        left: 0px;
+        top: 90px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+    
+        color: #000000;
+    }
+}
