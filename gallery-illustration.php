@@ -58,7 +58,7 @@
             <!--sky-->
             <a-sky color="#000000"></a-sky>
             <!--illustration room-->
-            <a-entity gltf-model="url(assets/drawing_glb.glb)"
+            <a-entity gltf-model="urlhttps://drive.google.com/file/d/1UHIB2hnFw8OEvCjdcGBEEALhYNy5v23i/view?usp=share_link)"
                     position="0 -0.2 0"
                     scale="1 1 1"
                     shadow="receive: true"
@@ -114,7 +114,7 @@
             </a-entity>
 
             <!--instruction: gate-branding-->
-            <a-entity gltf-model="url(assets/instruction_glb.glb)"
+            <a-entity gltf-model="url(https://drive.google.com/file/d/17D6AKjUGcAw0mOhC_ot_wKr6aTDW5pfK/view?usp=share_link)"
                     position="12.5 0.8 10.7"
                     rotation="0 60 0"
                     scale="1 1 1"
@@ -124,7 +124,7 @@
             </a-entity>
 
             <!--instruction: gate-imagecomp-->
-            <a-entity gltf-model="url(assets/instruction_glb.glb)"
+            <a-entity gltf-model="url(https://drive.google.com/file/d/17D6AKjUGcAw0mOhC_ot_wKr6aTDW5pfK/view?usp=share_link)"
                     position="12.5 0.8 -10.7"
                     rotation="0 -60 0"
                     scale="1 1 1"
