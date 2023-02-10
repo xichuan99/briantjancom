@@ -58,7 +58,7 @@
             <!--sky-->
             <a-sky color="#000000"></a-sky>
             <!--room-->
-            <a-entity gltf-model="url(assets/image composite_glb.glb)"
+            <a-entity gltf-model="url(https://drive.google.com/file/d/1sEHh_Kahly5t6KR3v5nnR1wae4dv0UN_/view?usp=share_link)"
                     position="-5 -0.2 -12"
                     scale="1 1 1"
                     shadow="receive: true"
@@ -105,7 +105,7 @@
             </a-entity>
 
             <!--instruction: gate-illustration-->
-            <a-entity gltf-model="url(assets/instruction_glb.glb)"
+            <a-entity gltf-model="url(https://drive.google.com/file/d/17D6AKjUGcAw0mOhC_ot_wKr6aTDW5pfK/view?usp=share_link)"
                     position="0.5 0.8 8"
                     scale="1 1 1"
                     rotation="0 90 0"
@@ -115,7 +115,7 @@
             </a-entity>
 
             <!--instruction: podium-->
-            <a-entity gltf-model="url(assets/instruction_glb.glb)"
+            <a-entity gltf-model="url(https://drive.google.com/file/d/17D6AKjUGcAw0mOhC_ot_wKr6aTDW5pfK/view?usp=share_link)"
                     position="-4 1.5 -9.5"
                     scale="1 1 1"
                     rotation="0 0 0"
